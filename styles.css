@@ -28,3 +28,7 @@ a:hover {
 a:active {
 	color:yellow;
 }
+
+form {
+	background-image: url(envelope2.png)
+}
