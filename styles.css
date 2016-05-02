@@ -12,3 +12,19 @@
 #special_font {
 	font-family: sans-serif;
 }
+
+a:link {
+	color:blue;
+}
+
+a:visited {
+	color:green;
+}
+
+a:hover {
+	color:red;
+}
+
+a:active {
+	color:yellow;
+}
