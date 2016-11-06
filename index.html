@@ -10,9 +10,6 @@
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-
 
 </head>
 <body>
@@ -27,6 +24,12 @@
 				<li>
 						<a href="#home" onclick=$("#menu-close").click();>Home</a>
 				</li>
+				<li>
+						<a href="#about" onclick=$("#menu-close").click();>About</a>
+				</li>
+				<li>
+						<a href="#download" onclick=$("#menu-close").click();>Download</a>
+				</li>
 		</ul>
 	</nav>
 	<header id="home" class="header">
@@ -40,8 +43,24 @@
 			</div>
 		</div>
 	</header>
-Hello World
 
+	<section id="about" class="about abt-primary">
+			<div class="container">
+					<div class="row">
+							<div class="col-lg-12 text-center">
+									<h1>About me.</h2>
+									<img style="max-height: 250px; display:block; margin:auto;" src="./img/kaitlynmcpartland.JPG" alt="Kaitlyn McPartland" class="img-responsive img-circle"><br>
+									<h3 class="section-heading">Kaitlyn McPartland</h3>
+									<p><h3>I’m a web developer with a background in project management and healthcare. While working my way up at a leading EMR company, I ended up overseeing teams of 60+ people while managing multimillion dollar projects.<br><br>
+										After working with technical professionals for a few years, I realized I also had a desire to build and create. I enrolled in Dev Bootcamp where I spent 1000+ hours coding, pair programming and learning agile development methodologies.<br><br>
+										I am driven by my ability to hone in on problems and create solutions that improve product outcomes and human lives. I’m currently seeking an entry level software development role in a passionate, efficient team.<h3></p>
+							</div>
+					</div>
+			</div>
+	</section>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/application.js"></script>
 </body>
 </html>

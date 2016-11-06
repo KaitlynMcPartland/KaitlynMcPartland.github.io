@@ -26,3 +26,12 @@
 	vertical-align: middle;
 
 }
+.abt-primary {
+  color: #DDE9ED;
+  background-color: #222;
+	font-family: "Times new roman";
+}
+a.abt-primary:hover,
+a.abt-primary:focus {
+  background-color: #286090;
+}
