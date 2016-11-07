@@ -200,11 +200,14 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    width: 250px;
+    height: 180px;
 }
 
 .img-portfolio:hover {
     opacity: 0.8;
 }
+
 
 /* Call to Action */
 

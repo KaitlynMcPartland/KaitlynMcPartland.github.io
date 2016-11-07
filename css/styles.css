@@ -35,3 +35,13 @@ a.abt-primary:hover,
 a.abt-primary:focus {
   background-color: #286090;
 }
+
+.img-gift {
+    margin: 0 auto;
+    width: 140px;
+    height: 180px;
+}
+
+.img-gift:hover {
+    opacity: 0.8;
+}
